@@ -111,7 +111,7 @@ handleemail=(e)=>{
      
       
 
- <div className="bg-success">
+ <div className="bg-warning">
               <center>   <h1 className="display-1">Top {filtered.length} Movies of the Decade</h1>
                   <div className="row">
             
@@ -165,7 +165,7 @@ handleemail=(e)=>{
 
 
               <div>
-   <center className="alert alert-primary" style={{cursor:"pointer"}} role="alert"> <button className="btn btn-info" onClick={this.handlesubscribe} style={{cursor:"pointer"}}>Subscribe</button>
+   <center style={{cursor:"pointer"}} role="alert"> <button className="btn btn-info" onClick={this.handlesubscribe} style={{cursor:"pointer"}}>Subscribe</button>
               <p onClick={this.handlesubscribe}>{this.state.text}</p>
             
               <p onClick={this.handleemail}>Enter Email</p>
