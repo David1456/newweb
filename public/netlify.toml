@@ -1,0 +1,9 @@
+[build]
+  command = "npm run build"
+  publish = "public"
+
+[[redirects]]
+  from = "https://sleepy-carson-588107.netlify.com/About"
+  to = "/About"
+  status = 301
+  force = true
