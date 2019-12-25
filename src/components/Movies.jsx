@@ -104,7 +104,7 @@ handleemail=(e)=>{
 
     return (
       <div>
-            <div> 
+            <div className="bg-warning" > 
             <Image image={this.state.img}/>
             <Navbar />
             </div>
