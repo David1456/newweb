@@ -6,6 +6,7 @@ import Reviews from "./components/Routingfolder/Reviews.jsx"
 import SignIn from "./components/Routingfolder/SignIn.jsx"
 import About from "./components/Routingfolder/About.jsx"
 import signup from "./components/Routingfolder/SignUp.jsx"
+import "./../src/components/utils/style.css"
 
 
 
