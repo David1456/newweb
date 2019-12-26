@@ -9,6 +9,7 @@ import Pagination from "./Pagination"
 import { paginate } from "./utils/paginate.js";
 import _ from "lodash"
 import Like from "./Like"
+import "./../components/utils/style.css"
 
 
 
